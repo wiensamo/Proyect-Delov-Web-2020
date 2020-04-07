@@ -1,5 +1,6 @@
 export const usuario;
 
+
 class usuario{
     IdUsuario =number;
     Pasword =string;

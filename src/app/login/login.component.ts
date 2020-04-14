@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {usuario} from '../Modils/usuario';
+import {usuario} from '../Modils/Usuario.model';
 
 
 @Component({
@@ -11,7 +11,7 @@ import {usuario} from '../Modils/usuario';
 export class LoginComponent implements OnInit {
 
   ListaUsuarios =[];
-  IdUsuario : string;
+  IdUsuario : number;
   Pasword : string;
 
   constructor() { }
@@ -21,6 +21,7 @@ export class LoginComponent implements OnInit {
 
   buscarUsuario(){
     var founduser = this.ListaUsuarios.find(element => element.IdUsuario===this.IdUsuario);
+    //si  se trae el usuario de la base de dato no nececito  el  contructor que tengo  en la clase Usuario.model.ts
     var user = new usuario();
     user.IdUsuario = this.IdUsuario
     console.log(founduser);
@@ -28,7 +29,7 @@ export class LoginComponent implements OnInit {
   buscarPasword(){
     var foundpasw = this.ListaUsuarios.find(element => element.Pasword===this.Pasword);
     var pasw = new usuario();
-    pasw.twet = this.Pasword
+    pasw.Pasword = this.Pasword
     console.log(foundpasw);
   }
 }

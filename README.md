@@ -1,13 +1,10 @@
 # ProyectoAfiches
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
-Este Proyecto  es generado con [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-Ejecutar para un servidor de desarrollo. Navegue a `http: // localhost: 4200 /`. La aplicación se volverá a cargar automáticamente si cambia alguno de los archivos de origen.
-
 
 ## Code scaffolding
 

@@ -21,25 +21,19 @@
     "@angular/router": "~9.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.1.0",
-    "pg": "^8.0.2",
-    "pg-hstore": "^2.3.3",
     "rxjs": "~6.5.4",
-    "sequelize": "^5.21.6",
-    "sqlite3": "^4.1.1",
     "swiper": "^5.3.7",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.901.1",
+    "@angular-devkit/build-angular": "~0.901.0",
     "@angular/cli": "~9.1.0",
     "@angular/compiler-cli": "~9.1.0",
     "@angular/language-service": "~9.1.0",
+    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -49,22 +43,8 @@
     "karma-jasmine": "~3.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "protractor": "~5.4.3",
-    "sequelize-cli": "^5.5.1",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
-  },
-  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.",
-  "main": "karma.conf.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wiensamo/Proyect-Delov-Web-2020.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wiensamo/Proyect-Delov-Web-2020/issues"
-  },
-  "homepage": "https://github.com/wiensamo/Proyect-Delov-Web-2020#readme"
+  }
 }

@@ -5,21 +5,22 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { HomeComponent } from './home/home.component';
+import { homeComponent } from './home/home.component';
 import { PerfilComponent } from './perfil/perfil.component';
-import { RegistroComponent } from './registro/registro.component';
+import { CargarComponent } from './cargar/cargar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent,
+    homeComponent,
     PerfilComponent,
-    RegistroComponent
+    CargarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

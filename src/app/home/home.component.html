@@ -1,36 +1,178 @@
-<!DOCTYPE html> 
-<html lang="en">
-    <head>
-    <meta charset="UFT-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./home.component.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
-	<title>Poliafiches</title>
-    </head>
+<body>
+    
 
-    <body>
-        <header>
-            <div class="contenedor">
-            <h2 class="logotipo">Poli Afiches</h2>
-                <nav>
-                    <a href="#" class="activo">Home</a>
-                    <a href="#">Perfil</a>
-                </nav>
-            </div>
-        </header>
 
-        <main>
-            <div class="Afiche-Principal">
+        <main >
+             <div class="Afiche-Principal">
                 <div class="contenedor">
-                <h3 class="tituloAfiche"></h3>
-                <p class="descripcion"></p>
-                <button role="button" class="button"><i class="fas"></i>Play</button>
-                <button role="button" class="button"><i class="fas fa-info-square"></i>Descripcion</button>
+                <h3 class="tituloAfiche"> Wason</h3>
+                <p class="descripcion"> Expondremos este poster del wason el cual jebfdsdbfjad ja fjbs fjbasjfjbjsdbsadbfds</p>
+                <button role="button" class="button">Ver pantalla completa</button>
+                
+                <button role="button" class="button">Puntuar</button>
+                
                 </div>
             </div>
-        </main>
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-</body>
 
-</html>
+            <div class="carrusel-contenedor contenedor" >
+                <div class="contenedor-titulo-controles">
+                    <h3>Posters disponibles</h3>
+                    <div class="indicadores">
+                        <button></button>
+                        <button></button>
+                        <button></button>
+                        <button></button>
+                         <button></button>
+                    </div>
+                </div>
+
+                <div class="contenedor-principal"  >
+                    
+                    <button role="button" id="flecha-izquierda" class="flecha-izquierda" (click)="correrizquierda()" ><i class="fas fa-angle-left"></i></button>
+                   
+                
+                    <div class="contenedor-carrusel">
+                     <div class="carrusel">
+                            <div class="poster">
+                                <a href="http://">
+                                    <img src="../../assets/images/uno.png" alt="">
+                                   
+                                </a>
+                                <p>hola que mas</p>
+                            <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="http://">
+                                <img src="../../assets/images/dos.png" alt="">
+                            </a>
+                            <p>hola que mas</p>
+                            <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="http://">
+                                <img src="../../assets/images/tres.png" alt="">
+                            </a>
+                            <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="http://">
+                                <img src="../../assets/images/cuatro.png"  alt="">
+                            </a>
+                            <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="http://google.com">
+                                <img src="../../assets/images/cinco.png.png" alt="">
+                            </a>
+                            <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="#"><img src="../../assets/images/seis.png" alt="Imagen seis"></a>
+                            <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="#"><img src="../../assets/images/seven.png" alt="Imagen siete"></a>
+                            <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="#"><img src="../../assets/images/ocho.png" alt="Imagen ocho"></a>
+                            <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="http://">
+                                <img src="../../assets/images/uno.png" alt="">
+                            </a>
+                            <p>hola que mas</p>
+                        <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="http://">
+                                <img src="../../assets/images/dos.png" alt="">
+                            </a>
+                            <p>hola que mas</p>
+                        <!-- aca creo que deberia ir la -->
+                        </div>
+                        <div class="poster">
+                            <a href="http://">
+                                <img src="../../assets/images/tres.png" alt="">
+                            </a>
+                            <p>hola que mas</p>
+                        <!-- aca creo que deberia ir la -->
+                    </div>
+                    <div class="poster">
+                        <a href="http://">
+                            <img src="../../assets/images/uno.png" alt="">
+                        </a>
+                        <p>hola que mas</p>
+                    <!-- aca creo que deberia ir la -->
+                </div>
+                <div class="poster">
+                    <a href="http://">
+                        <img src="../../assets/images/dos.png" alt="">
+                    </a>
+                    <p>hola que mas</p>
+                    <!-- aca creo que deberia ir la -->
+                </div>
+                <div class="poster">
+                    <a href="http://">
+                        <img src="../../assets/images/tres.png" alt="">
+                    </a>
+                    <!-- aca creo que deberia ir la -->
+                </div>
+                <div class="poster">
+                    <a href="http://">
+                        <img src="../../assets/images/cuatro.png"  alt="">
+                    </a>
+                    <!-- aca creo que deberia ir la -->
+                </div>
+                <div class="poster">
+                    <a href="http://google.com">
+                        <img src="../../assets/images/cinco.png.png" alt="">
+                    </a>
+                    <!-- aca creo que deberia ir la -->
+                </div>
+                <div class="poster">
+                    <a href="#"><img src="../../assets/images/seis.png" alt="Imagen seis"></a>
+                    <!-- aca creo que deberia ir la -->
+                </div>
+                <div class="poster">
+                    <a href="#"><img src="../../assets/images/seven.png" alt="Imagen siete"></a>
+                    <!-- aca creo que deberia ir la -->
+                </div>
+                <div class="poster">
+                    <a href="#"><img src="../../assets/images/ocho.png" alt="Imagen ocho"></a>
+                    <!-- aca creo que deberia ir la -->
+                </div>
+                <div class="poster">
+                    <a href="http://">
+                        <img src="../../assets/images/uno.png" alt="">
+                    </a>
+                    <p>hola que mas</p>
+                <!-- aca creo que deberia ir la -->
+                </div>
+                <div class="poster">
+                    <a href="http://">
+                        <img src="../../assets/images/dos.png" alt="">
+                    </a>
+                    <p>hola que mas</p>
+                <!-- aca creo que deberia ir la -->
+                </div>
+
+                    </div>
+             </div>    
+             
+          <button role="button" id="flecha-derecha" class="flecha-derecha" (click)="correrderecha()"><i class="fas fa-angle-right"></i></button>
+                </div>
+                
+            </div>
+            
+      </main>
+
+     
+        
+    </body>
+
+    
+       
+
+
